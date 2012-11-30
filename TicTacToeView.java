@@ -250,4 +250,8 @@ public class TicTacToeView extends View {
 					  mBoardGeometry.getBRY(),
 					  mForeBoardPaint);
 	}
+	
+	final void enableDrawing() { mDrawingEnabled = true; }
+	
+	final void disableDrawing() { mDrawingEnabled = false; }
 }
